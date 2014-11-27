@@ -1,12 +1,26 @@
 {
   "name": "portfolio",
-  "version": "0.0.1",
-  "description": "a portfolio website"
+  "version": "0.0.0",
+  "description": "a portfolio website",
   "main": "app.js",
-  "dependencies": {
-    "node": "0.10.25"
-  },
   "scripts": {
-    "start": "node app.js"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kawoukaka/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "kawoukaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawoukaka/portfolio/issues"
+  },
+  "homepage": "https://github.com/kawoukaka/portfolio"
 }
