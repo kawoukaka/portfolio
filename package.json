@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "a portfolio website"
+  "main": "app.js",
+  "dependencies": {
+    "node": "0.10.25"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
