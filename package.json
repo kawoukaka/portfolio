@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+<<<<<<< HEAD
   "version": "0.0.0",
   "description": "a portfolio website",
   "main": "app.js",
@@ -24,3 +25,16 @@
   },
   "homepage": "https://github.com/kawoukaka/portfolio"
 }
+=======
+  "version": "0.0.1",
+  "description": "a portfolio website",
+  "main": "app.js",
+  "engines": {
+    "node": "0.10.25",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
+>>>>>>> FETCH_HEAD
