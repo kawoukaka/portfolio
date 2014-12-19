@@ -215,9 +215,8 @@ section.success {
    float:left;/*左漂浮*/
    position:absolute;
    left:50%;
-   top:130%;
-   margin:40px 0 0 0;   
-    width:1px;   
+   top:128%;
+   width:1px;   
     height:3200px;   
     background:#3e40a9; 
 }
