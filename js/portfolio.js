@@ -1,6 +1,6 @@
 $(function() {
-
-	for (var i=1;i<10;i++)
+	
+	/*for (var i=1;i<10;i++)
 	{
 		var s="#tabs #tab";
 		$(s+i).css('z-index',10-parseInt($(s+i).attr("id").substr(3,1)));

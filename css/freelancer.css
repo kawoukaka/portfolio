@@ -187,7 +187,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 120px 0;
+    padding: 40px 0;
 }
 
 section h2 {
@@ -210,97 +210,20 @@ section.success {
     }
 }
 
-.folder{
-    top:40px;
-	position:relative;
+
+#line{
+   float:left;/*左漂浮*/
+   position:absolute;
+   left:50%;
+   top:130%;
+   margin:40px 0 0 0;   
+    width:1px;   
+    height:3200px;   
+    background:#3e40a9; 
 }
 
 
-.folder-tab-content{
-	z-index:2;
-	position:absolute;
-	left:50%;
-	margin-left:-600px;
-}
 
-#tabs {	
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-    margin-left: 81px;
-}
-
-#tabs li {
-	position:relative;
-	float: left;
-	margin: 0 -20px 0 0;
-}
-#tabs li img{
-    width:100px;
-    height:87px;
-}
-.folder-pic{
-    position:relative;
-    left:50%;
-    margin-left:-550px;
-    top:50px;
-    width:800px;
-    height:500px;
-    z-index:10;
-    background-color: #3e40a9;
-    border-color: #bfb4a9;
-}
-.folder-pic li{
-    list-style: none;
-    
-
-}
-.folder-pic .container_skitter {
-    overflow: hidden;
-    position: relative;
-}
-
-.folder-pic .image {
-    overflow: hidden;
-}
-
-
-/* =Box clone
--------------------------------------------------------------- */
-.folder-pic .box_clone {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    overflow: hidden;
-    display: none;
-    z-index: 20;
-}
-
-.folder-pic .box_clone img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 20;
-}
-.folder-pic img {
-    max-width: none;
-} /* Tip for stildv */
-.folder-pic ul {
-    display: none;
-}
-
-.folder-info{
-    display:none;
-}
-.infotext p{
-    font-size: 1.75em;
-    color:#3e40a9;
-    font-weight: 300;
-    text-align: left;
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 #portfolio {
     z-index: 2;
 }
